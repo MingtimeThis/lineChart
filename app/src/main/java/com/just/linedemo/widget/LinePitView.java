@@ -256,15 +256,6 @@ public class LinePitView extends View {
             );
 
         }
-//        int yheight = height / ySpace;
-//
-//        for (int i = 1; i <= entries.size(); i++) {
-//            canvas.drawLine(startX, startY + (i * yheight), startX + 10,
-//                    startY + (i * yheight), mAxisPaint);
-//            canvas.drawText(entries.get(i - 1).getyValue(), (startX - DisplayUtils.dip2px(getContext(), 5) - bounds.width()),
-//                    startY + (i * yheight) + bounds.height() / 2, mAxisYPaint
-//            );
-//        }
         canvas.drawLine(startX, startY, startX, getHeight(), mAxisPaint);
     }
 
@@ -288,8 +279,6 @@ public class LinePitView extends View {
 
     public void setData(List<Entry> entries) {
         this.entries = entries;
-
-
         invalidate();
     }
 

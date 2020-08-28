@@ -98,7 +98,7 @@ public class MutilLinePitView extends View {
 
 
         mAxisYPaint = new Paint();
-        mAxisYPaint.setTextSize(DisplayUtils.sp2px(getContext(), 8));
+        mAxisYPaint.setTextSize(DisplayUtils.sp2px(getContext(), 12));
         mAxisYPaint.setAntiAlias(true);
         mAxisYPaint.setColor(Color.parseColor("#CCCCCC"));
 
